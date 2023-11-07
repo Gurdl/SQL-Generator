@@ -1,0 +1,72 @@
+.code-display {
+    width: 96%;
+    height: 46%;
+    margin: 6px 22px;
+    border-radius: 8px;
+    background-color: rgb(34, 34, 34);
+    /* overflow:scroll; */
+}
+
+.buttons {
+    width: 99%;
+    height: 35px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.button {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.button.first {
+    background-color: rgb(255, 96, 86);
+}
+
+.button.second {
+    background-color: rgb(255, 189, 45);
+}
+
+.button.third {
+    background-color: rgb(38, 201, 64);
+}
+
+.code-output {
+    margin: 20px;
+    width: 95%;
+    height: 85%;
+    overflow: scroll;
+}
+
+.code-output p {
+    color: rgb(255, 189, 45);
+}
+
+.loaders {
+    display: flex;
+}
+.cardImgLoading{
+    width: 100%;
+    height: 374px;
+    background-color: #4a5568;
+  }
+  @keyframes flashing {
+    0% {
+      opacity: 0.5;
+      background-position: 0% 0%;
+    }
+    50% {
+      opacity: 0.8;
+      background-color: rgb(255, 189, 45);
+    }
+    100% {
+      opacity: 0.5;
+      background-position: 100% 0%;
+    }
+  }
+  

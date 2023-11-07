@@ -1,0 +1,43 @@
+.App {
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+input {
+    margin: 2%;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+}
+
+.button-container button {
+    text-transform: uppercase;
+    padding: 7px;
+    border: none;
+    font-weight: 600;
+}
+
+#get-query {
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(255, 95, 86);
+    cursor: pointer;
+}
+
+#clear-chats {
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(255, 189, 45);
+    cursor: pointer;
+}
